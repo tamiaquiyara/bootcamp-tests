@@ -8,4 +8,9 @@ describe('This totalPhoneBill function' , function(){
         assert.equal('R10.20', totalPhoneBill('sms, call, call, call, sms, sms'));
 
     });
+
+    it("should take a string of calls and sms's and calculate and return the total bill" , function(){
+        assert.equal('R16.35', totalPhoneBill('sms, call, call, call, sms, sms, call, sms, call'));
+
+    });
 });

@@ -8,4 +8,9 @@ describe('This yearsAgo function' , function(){
         assert.equal("75", yearsAgo(1947));
 
     });
+
+    it('should calculate how many years from my birthday year there are to the current year' , function(){
+        assert.equal("23", yearsAgo(1999));
+
+    });
 });

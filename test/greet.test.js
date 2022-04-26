@@ -7,5 +7,7 @@ describe('The greet function' , function(){
         assert.equal("Hello, Allison", greet("Allison"));
     });
 
-
+    it('should return a string' , function(){
+        assert.equal("Hello, Bob", greet("Bob"));
+    });
 });
